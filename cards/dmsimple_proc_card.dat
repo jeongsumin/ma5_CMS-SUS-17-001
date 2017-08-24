@@ -1,0 +1,16 @@
+import model DMsimp_s_spin0/
+generate p p > t t~ xd xd~
+output
+open index.html 
+generate p p > t t~ y0
+generate p p > t t~ y0, y0 > xd xd~
+output
+open index.html 
+generate p p > t t~ y0 /j a w+ z h , y0 > xd xd~
+output testdm
+open index.html 
+generate p p > t t~ y0 /j t t~ b b~ a w+ z h , y0 > xd xd~
+generate p p > t t~ y0 /j t t~  a w+ z h , y0 > xd xd~
+generate p p > t t~ y0 /j t  a w+ z h , y0 > xd xd~
+generate p p > t t~ y0 /j  a w+ z h , y0 > xd xd~
+generate p p > t t~ y0 /j b b~ a w+ z h , y0 > xd xd~
