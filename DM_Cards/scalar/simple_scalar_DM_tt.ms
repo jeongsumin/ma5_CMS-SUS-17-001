@@ -13,8 +13,8 @@ define lept = l+ l- vl vl~
 #
 #
 # Specify process(es) to run
-generate p p > t t~ xd xd~ @0
-add process  p p > t t~ xd xd~ j @1
+generate p p > t t~ y0, (t > b W+, W+ > lept lept), (t~ > b~ W-, W- > lept lept), y0 > xd xd~ @0
+add process  p p > t t~ y0 j, (t > b W+, W+ > lept lept), (t~ > b~ W-, W- > lept lept), y0 > xd xd~ @1
 #
 #
 output simple_scalar_DM_tt -nojpeg
